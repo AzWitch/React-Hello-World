@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+    <script src="build/JSXTransformer.js"></script>
+  </head>
+  <body>
+    <div id="mount-point"></div>
+    <script type="text.jsx">
+      <script type="text/jsx">
+        /** @jsx React.Dom */
+        ReactDOM.render(
+            <h1>Hello, world!</h1>,
+            Document.getElemnetById('myDiv')
+        );
+    </script>
+  </body>
+</html>
